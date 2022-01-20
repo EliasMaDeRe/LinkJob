@@ -15,6 +15,8 @@ int main(){
 
 int numero;
 
+cout << "Ingrese el numero a invertir";
+
 cin >> numero;
 
 Espejo(numero);
