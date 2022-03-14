@@ -1,0 +1,18 @@
+|  RF-003 | Presentador de gráficas   |   |
+| ------------ | ----------- | ------------ |
+| **Descripción** |El usuario podrá visualizar las gráficas de barras de las categorías de información y tecnologías solicitadas de las ofertas de trabajo publicadas en glassdoor, las cuales son generadas por el sistema a partir de los filtros seleccionados.   |   |
+|**Secuencia normal**   |**Paso**   |**Acción**   |
+|   | 1 | El usuario introduce los filtros que requiera. |
+|   | 2 | El sistema busca en la base de datos las gráficas de barras relacionadas a los filtros colocados por el usuario.  |
+|   | 3 | El sistema presenta las gráficas de barras correspondientes.  |
+|   | 4 | El usuario visualiza las gráficas de barras presentadas por el sistema.  |
+
+|  RF-004 |   | Generador de gráficas  |
+| ------------ | ------------ | ------------ |
+|  **Descripción** | El sistema debe generar gráficas de barras, el primer domingo de cada mes, sobre las categorías de información y tecnologías solicitadas de las ofertas publicadas en glassdoor de 1, 6 y 12 meses atrás de cada categoría.  |   |
+| **Secuencia normal** | **Paso**  |  **Acción** |
+|   |  1 |  Los datos de las categorías de información están disponibles para el sistema. |
+|   | 2  |  El sistema genera una gráfica de barras el primer domingo de cada mes con la información almacenada. |
+|   |  3 | El sistema genera gráficas de barras para cada intervalo de tiempo (1 mes, 6 meses y 12 meses).  |
+|   | 4  |  El sistema almacena las gráficas de barras generadas con la información e intervalos correspondientes. |
+
