@@ -1,3 +1,5 @@
+# Especificación Requerimientos
+
 | **RF-001**  |   |   |  **Base de datos** |
 | ------------ | ------------ | ------------ | ------------ |
 | **Descripción**   |   |   |  El sistema debe almacenar el contenido de las categorías de información (sueldo, locación, tamaño de empresa, modalidad, fecha de publicación),  tecnologías solicitadas y los URL de cada una de las ofertas de trabajo que se publican en glassdoor, además de las gráficas de barras generadas a partir de la información recabada. |
@@ -25,9 +27,9 @@
 |   |   |  6.1 | El sistema deja en espera el envío de las gráficas de barras generadas a partir de los datos de las categorías de información y tecnologías, hasta que se restablezca la conexión con la base de datos.  |
 | | |6.2 | El sistema intentará conectarse cada hora del domingo con la base de datos hasta finalmente poder enviar la gráficas de barras correspondiente.|
 
-| **RF-002**  |  **Recolectado de información** |   |   |
+| **RF-002**  |   |   |  **Recolectado de información** |
 | ------------ | ------------ | ------------ | ------------ |
-|**Descripción**   | El sistema debe tener la habilidad de recolectar los datos de las categorías de información y tecnologías asociadas a las ofertas de trabajo que se publican en glassdoor, todo esto a través de palabras claves proporcionadas por un diccionario estático integrado.  |   |   |
+|**Descripción**   |   |   |  El sistema debe tener la habilidad de recolectar los datos de las categorías de información y tecnologías asociadas a las ofertas de trabajo que se publican en glassdoor, todo esto a través de palabras claves proporcionadas por un diccionario estático integrado. |
 | **Secuencia normal**  | **Paso**  | **Acción**  |   |
 |   | 1 | El sistema comienza a realizar la recolección de los datos de las categorías de información y tecnologías solicitadas cada primer domingo del mes a las 0:00 hrs.  |   |
 |   | 2 | El sistema solicita al diccionario estático integrado las palabras claves almacenadas.   |   |
@@ -44,9 +46,9 @@
 |   |   | 6.1  |Omite la categoría o tecnología que no está presente.   |
 |   |   | 6.2  | El sistema continúa con la búsqueda.  |
 
-|  RF-003 | Presentador de gráficas   |   |
+|  RF-003 |    | Presentador de gráficas  |
 | ------------ | ----------- | ------------ |
-| **Descripción** |El usuario podrá visualizar las gráficas de barras de las categorías de información y tecnologías solicitadas de las ofertas de trabajo publicadas en glassdoor, las cuales son generadas por el sistema a partir de los filtros seleccionados.   |   |
+| **Descripción** |   | El usuario podrá visualizar las gráficas de barras de las categorías de información y tecnologías solicitadas de las ofertas de trabajo publicadas en glassdoor, las cuales son generadas por el sistema a partir de los filtros seleccionados.  |
 |**Secuencia normal**   |**Paso**   |**Acción**   |
 |   | 1 | El usuario introduce los filtros que requiera. |
 |   | 2 | El sistema busca en la base de datos las gráficas de barras relacionadas a los filtros colocados por el usuario.  |
@@ -55,7 +57,7 @@
 
 |  RF-004 |   | Generador de gráficas  |
 | ------------ | ------------ | ------------ |
-|  **Descripción** | El sistema debe generar gráficas de barras, el primer domingo de cada mes, sobre las categorías de información y tecnologías solicitadas de las ofertas publicadas en glassdoor de 1, 6 y 12 meses atrás de cada categoría.  |   |
+|  **Descripción** |   | El sistema debe generar gráficas de barras, el primer domingo de cada mes, sobre las categorías de información y tecnologías solicitadas de las ofertas publicadas en glassdoor de 1, 6 y 12 meses atrás de cada categoría.  |
 | **Secuencia normal** | **Paso**  |  **Acción** |
 |   |  1 |  Los datos de las categorías de información están disponibles para el sistema. |
 |   | 2  |  El sistema genera una gráfica de barras el primer domingo de cada mes con la información almacenada. |
@@ -84,4 +86,16 @@
 |   | 3  |   | Si el usuario selecciona más de 2 filtros para las cuales necesite la información:  |
 |   |   | 3.1  | El sistema le informa al usuario de que no es posible elegir más de dos filtros.  |
 
+
+|**RF-007**|||**Filtros Específicos**|
+|--|--|--|--|
+|**Descripción**|||El usuario podrá colocar filtros que incluyan las subclasificaciones de cada categoría de información (locación, los 32 estados de México; tamaño de empresa, grande, mediana y pequeña; modalidad, presencial y virtual; fecha de publicación, un mes, seis meses y doce meses).|
+|**Secuencia Normal**|**Paso**|**Acción**||
+||1|El usuario solicita al sistema la lista de subclasificaciones de las categorías de información.||
+||2|El sistema despliega una lista de subclasificaciones de las categorías de información.||
+||3|El usuario selecciona las subclasificaciones que desee.||
+||4|El sistema localiza la información relacionada a las subcategorías ingresadas en los filtros.||
+|**Excepciones**|**Paso**|**Acción**||
+||3|Si el usuario selecciona más de 2 filtros de las subclasificaciones.||
+|||3.1|El sistema le informa al usuario de que no es posible elegir más de dos filtros.|
 
