@@ -1,8 +1,8 @@
-# Tabla
+# RF-007
 
-|**RF-007**||**Filtros Específicos**||
+|**RF-007**|||**Filtros Específicos**|
 |--|--|--|--|
-|**Descripción**||El usuario podrá colocar filtros que incluyan las subclasificaciones de cada categoría de información (locación, los 32 estados de México; tamaño de empresa, grande, mediana y pequeña; modalidad, presencial y virtual; fecha de publicación, un mes, seis meses y doce meses).||
+|**Descripción**|||El usuario podrá colocar filtros que incluyan las subclasificaciones de cada categoría de información (locación, los 32 estados de México; tamaño de empresa, grande, mediana y pequeña; modalidad, presencial y virtual; fecha de publicación, un mes, seis meses y doce meses).|
 |**Secuencia Normal**|**Paso**|**Acción**||
 ||1|El usuario solicita al sistema la lista de subclasificaciones de las categorías de información.||
 ||2|El sistema despliega una lista de subclasificaciones de las categorías de información.||
