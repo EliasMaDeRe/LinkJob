@@ -1,5 +1,6 @@
 # RF-007
 
+
 |**RF-007**|||**Filtros Específicos**|
 |--|--|--|--|
 |**Descripción**|||El usuario podrá colocar filtros que incluyan las subclasificaciones de cada categoría de información (locación, los 32 estados de México; tamaño de empresa, grande, mediana y pequeña; modalidad, presencial y virtual; fecha de publicación, un mes, seis meses y doce meses).|
