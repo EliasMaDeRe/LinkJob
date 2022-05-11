@@ -22,14 +22,6 @@ Se almacenan las urls de las propuestas de trabajos en Glassdoor.
 
 Se almacena la gráfica de barras de las tecnologías más utilizadas de hace 1 mes
 
-Se almacena la gráfica de barras de las tecnologías más utilizadas de hace 6 mes
-
-Se almacena la gráfica de barras de las tecnologías más utilizadas de hace 12 mes
-
 Se almacena la gráfica de barras sobre el sueldo de hace 1 mes
-
-Se almacena la gráfica de barras sobre el sueldo de hace 6 mes
-
-Se almacena la gráfica de barras sobre el sueldo de hace 12 mes
 
 Se almacena la gráfica de barras sobre el sueldo con cada uno de los filtros (locación, tamaño de la empresa y modalidad)
