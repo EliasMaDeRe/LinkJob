@@ -1,4 +1,4 @@
-# Video Primera Entrega
+# Video Segunda Entrega
 
 A continuación se proporciona el link del video:
 https://alumnosuady-my.sharepoint.com/:v:/g/personal/a21216389_alumnos_uady_mx/EQvD40iHamhIkwHakOGSxhQBaeLMHNf6iVy5q_UVpQ07iA?e=sw1GBH
