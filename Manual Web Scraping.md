@@ -16,53 +16,53 @@ Para hacer más rápida e intuitiva la recolección, en este ejemplo, recolectar
 ### Importar nuestras librerías a utilizar en el programa
 
 #### selenium
-from selenium import webdriver 
+	from selenium import webdriver 
 
 Esta parte de la librería permite automatizar el navegador google chrome
 
 #### time
-import time
+	import time
 
 Esta librería que llega por defecto con python y nos permite controlar tiempos en el programa
 
 #### pandas
-import pandas as pd
+	import pandas as pd
 
 Gracias a esta importacion podemos exportar nuestros resultados a un .csv
 
 ### Creamos nuestra función principal de nuestro programa
 
-def obtener_monedas():
+	def obtener_monedas():
 
 ### Inicializamos nuestras variables 
 
 #### Buscar la ruta donde se encuenra instalado el driver que instalamos 
 
-path = "C:/Users/EMadera/proyectos/Python/chromedriver"
+	path = "C:/Users/EMadera/proyectos/Python/chromedriver" #Este es un ejemplo, el path es donde se encuentra el archivo de cada quien
 
 #### Determinamos el url de la página a scrapear
 
-url = 'https://coinmarketcap.com' 
+	url = 'https://coinmarketcap.com' 
 
 #### Definimos las variables restantes 
 
-tiempo_de_espera = 1  Tiempo de espera para el programa (segundos)
+	tiempo_de_espera = 1  Tiempo de espera para el programa (segundos)
 
-numero_de_monedas = 10  Numero de monedas a scrapear
+	numero_de_monedas = 10  Numero de monedas a scrapear
 
-monedas = [] Arreglo donde se almacenarán nuestros datos
+	monedas = [] Arreglo donde se almacenarán nuestros datos
 
 #### Primero debemos abrir el navegador
 
-options = webdriver.ChromeOptions() 
+	options = webdriver.ChromeOptions() 
 
-driver = webdriver.Chrome(executable_path=path,options=options)
+	driver = webdriver.Chrome(executable_path=path,options=options)
 
-driver.set_window_size(1120, 1000) Definimos el tamaño de la ventana que abriremos
+	driver.set_window_size(1120, 1000) Definimos el tamaño de la ventana que abriremos
 
-driver.get(url)
+	driver.get(url)
 
-time.sleep(tiempo_de_espera) Definimos el tiempo de espera entre cada orden 
+	time.sleep(tiempo_de_espera) Definimos el tiempo de espera entre cada orden 
 
 ### Hora de Scrapear
 
