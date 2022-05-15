@@ -9,6 +9,8 @@
 
 En este caso, de todos los datos de podemos obtener decidimos recolectar la posición de la moneda, su nombre, la abreviatura y el precio actual de la moneda
 
+[![Opciones a Scrapear](Opciones)](https://github.com/EliasMaDeRe/PE1/blob/MayCarlosBranch/Imagenes%20manual%20scraping/Opciones%20a%20scrapear.png?raw=true)
+
 Para hacer más rápida e intuitiva la recolección, en este ejemplo, recolectaremos la información de 10 monedas, además que el tiempo de espera será de 1 segundo
 
 ## ¡Ahora a codificar!
@@ -43,7 +45,8 @@ Gracias a esta importacion podemos exportar nuestros resultados a un .csv
 #### Determinamos el url de la página a scrapear
 
 	url = 'https://coinmarketcap.com' 
-
+	
+[![Logo CoinMarketCap](Logo)](https://github.com/EliasMaDeRe/PE1/blob/MayCarlosBranch/Imagenes%20manual%20scraping/Logo%20CoinMarketCap.png?raw=true)
 #### Definimos las variables restantes 
 
 	tiempo_de_espera = 1  Tiempo de espera para el programa (segundos)
@@ -137,7 +140,9 @@ Gracias a esta importacion podemos exportar nuestros resultados a un .csv
 	df = obtener_monedas()
 	df.to_csv('crypto.csv',index = False)
 
-#### Nos generará un archivo .csv que podremos abrir con algún editor de hojas de cálculo, como excel
+#### Nos generará un archivo .csv como el que se presenta a continuación y que podremos abrir con algún editor de hojas de cálculo, como excel
+
+[![Tabla de Cryptos](cryptos)](https://github.com/EliasMaDeRe/PE1/blob/MayCarlosBranch/Imagenes%20manual%20scraping/Tabla%20resultante.png?raw=true)
 
 
 
