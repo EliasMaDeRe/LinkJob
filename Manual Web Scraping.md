@@ -1,15 +1,25 @@
 # Guía Web-Scrapping 
 
-## Instalar librerías
+## Instalar nuestros recursos
+### Librerías
 - Selenium
 - Pandas
+
+### Driver
 - Web driver de Google Chrome
+
+## Determinamos el url de la página a scrapear
+
+![Logo CoinMarketCap](https://github.com/EliasMaDeRe/PE1/blob/MayCarlosBranch/Imagenes%20manual%20scraping/Logo%20CoinMarketCap.png?raw=true)
+
+	url = 'https://coinmarketcap.com' 
+	
 
 ## Identificar los elementos que deseamos obtener de la página
 
 En este caso, de todos los datos de podemos obtener decidimos recolectar la posición de la moneda, su nombre, la abreviatura y el precio actual de la moneda
 
-[![Opciones a Scrapear](Opciones)](https://github.com/EliasMaDeRe/PE1/blob/MayCarlosBranch/Imagenes%20manual%20scraping/Opciones%20a%20scrapear.png?raw=true)
+![Opciones a Scrapear](https://github.com/EliasMaDeRe/PE1/blob/MayCarlosBranch/Imagenes%20manual%20scraping/Opciones%20a%20scrapear.png?raw=true)
 
 Para hacer más rápida e intuitiva la recolección, en este ejemplo, recolectaremos la información de 10 monedas, además que el tiempo de espera será de 1 segundo
 
@@ -41,12 +51,7 @@ Gracias a esta importacion podemos exportar nuestros resultados a un .csv
 #### Buscar la ruta donde se encuenra instalado el driver que instalamos 
 
 	path = "C:/Users/EMadera/proyectos/Python/chromedriver" #Este es un ejemplo, el path es donde se encuentra el archivo de cada quien
-
-#### Determinamos el url de la página a scrapear
-
-	url = 'https://coinmarketcap.com' 
 	
-[![Logo CoinMarketCap](Logo)](https://github.com/EliasMaDeRe/PE1/blob/MayCarlosBranch/Imagenes%20manual%20scraping/Logo%20CoinMarketCap.png?raw=true)
 #### Definimos las variables restantes 
 
 	tiempo_de_espera = 1  Tiempo de espera para el programa (segundos)
@@ -142,7 +147,7 @@ Gracias a esta importacion podemos exportar nuestros resultados a un .csv
 
 #### Nos generará un archivo .csv como el que se presenta a continuación y que podremos abrir con algún editor de hojas de cálculo, como excel
 
-[![Tabla de Cryptos](cryptos)](https://github.com/EliasMaDeRe/PE1/blob/MayCarlosBranch/Imagenes%20manual%20scraping/Tabla%20resultante.png?raw=true)
+![Tabla de Cryptos](https://github.com/EliasMaDeRe/PE1/blob/MayCarlosBranch/Imagenes%20manual%20scraping/Tabla%20resultante.png?raw=true)
 
 
 
