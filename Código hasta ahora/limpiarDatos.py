@@ -166,6 +166,12 @@ def salario_modalidad (df):
     
     return df2
 
+def salario_locacion(df):
+    
+    df2= depurar_locacion(depurar_salario(df))
+    
+    return df2
+
 def depurar_df(df):
     
     df = depurar_fechas(df)
@@ -177,9 +183,12 @@ def depurar_df(df):
     df = locacion_modalidad(df)
     df = locacion_tamano_empresa(df)
     df = tamano_modalidad(df)
+    df =salario_tamano(df)
+    df = salario_locacion(df)
     
     
     return df
+
 
 
 
