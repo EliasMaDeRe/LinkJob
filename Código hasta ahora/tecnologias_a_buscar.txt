@@ -1,0 +1,10 @@
+python
+c++
+java
+c
+sql
+cloud
+js
+react
+nodejs
+aws
