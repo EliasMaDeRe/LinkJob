@@ -5,8 +5,7 @@ import pandas as pd
 
 def obtener_datos():
 
-    # Forma alternativa de cargar datos alternativos.
-    df = pd.read_csv("glassdoor_jobs.csv")
+    df = pd.read_csv("glassdoor_jobs.csv") # Forma alternativa de cargar datos alternativos.
 
     ld.obtener_tecnologias()  # Exportar datos de tecnologia en csv
 
