@@ -1,7 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import plottearTecnologias as pt
-import math as mt
 
 
 def plottear_salario(df):
