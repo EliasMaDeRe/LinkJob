@@ -282,26 +282,6 @@ def obtener_tecnologias():
     df_t = df_t.drop(df_t.index[[df_t.index > 4]])
     df_t.to_csv('LT.csv',index = False)
 
-'''
-def depurar_df(df):
-    
-    df = depurar_fechas(df)
-    df = depurar_locacion(df)
-    df = depurar_modalidad(df)
-    df = depurar_salario(df)
-    df = depurar_tamano_empresa(df)
-    df = modalidad_tamano_empresa (df)
-    df = locacion_modalidad(df)
-    df = locacion_tamano_empresa_grande(df)
-    df = locacion_tamano_empresa_mediana(df)
-    df = locacion_tamano_empresa_pequena(df)
-    df = tamano_empresa_modalidad(df)
-    df = salario_tamano(df)
-    df = salario_locacion(df)
-    
-    
-    return df
-'''
 
 
 
