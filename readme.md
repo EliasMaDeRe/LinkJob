@@ -1,6 +1,6 @@
 # LinkJob ![Logo](./img/LogoLinkJob.png)
 > LinkJob es una aplicación que proporciona información sobre las ofertas de trabajo para ingenieros de software en México en forma de gráficas y archivos .csv
-> - Video demo: shorturl.at/oLOZ5 <!-- If you have the project hosted somewhere, include the link here. -->
+> - Video demo: [aquí](https://alumnosuady-my.sharepoint.com/personal/a18000621_alumnos_uady_mx/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fa18000621%5Falumnos%5Fuady%5Fmx%2FDocuments%2F2022%2D05%2D23%2022%2D02%2D02%2Emp4&parent=%2Fpersonal%2Fa18000621%5Falumnos%5Fuady%5Fmx%2FDocuments&ga=1) <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Tabla de contenidos
 * [Información general](#información-general)
@@ -96,7 +96,7 @@ Este proyecto fue realizado por:
 
 Este proyecto fue inspirado por [este artículo de Omer Sakarya](https://mersakarya.medium.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905), y [este video por Ken Jee](https://www.youtube.com/watch?v=MpF9HENQjDo).
 
-Un agradecimiento espcial al [Dr. Edgar Cambranes](https://twitter.com/cambranes), por su mentoría durante la realización de este proyecto.
+Un agradecimiento especial al [Dr. Edgar Cambranes](https://twitter.com/cambranes), por su mentoría durante la realización de este proyecto.
 
 
 ## Contacto
