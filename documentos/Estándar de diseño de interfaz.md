@@ -17,7 +17,6 @@
 	-  Excepción: Puede haber un máximo de 2 botones debajo de la gráfica
 ### Botones
 - Drop-down
-	- Contorno redondo
 	- Deben seguir la paleta de colores que se esté utilizando en el programa
 	- Las opciones, si es el caso, se podrán deslizar verticalmente
 	- El menú se desplegará hacia arriba o abajo dependiendo del espacio en la pestaña 
