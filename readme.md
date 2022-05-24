@@ -11,8 +11,8 @@
 * [Usabilidad](#usabilidad)
 * [Estado del proyecto](#estado-del-proyecto)
 * [Espacio para mejora](#espacio-para-mejora)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
+* [Agradecimientos](#agradecimientos)
+* [Contacto](#contacto)
 <!-- * [License](#license) -->
 
 
@@ -99,6 +99,6 @@ Este proyecto fue inspirado por [este artículo de Omer Sakarya](https://mersaka
 Un agradecimiento espcial al [Dr. Edgar Cambranes](https://twitter.com/cambranes), por su mentoría durante la realización de este proyecto.
 
 
-## Contact
+## Contacto
 
 Siéntanse libres de mandarnos mensaje a través de correo byemadera@gmail.com .
