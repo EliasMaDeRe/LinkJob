@@ -88,7 +88,7 @@ Este proyecto fue realizado por:
 - [Reyna Valentina Ortiz Porras](https://github.com/valeeortiz)
 
 
-Este proyecto fue originalmente inspirado por [este artículo de Omer Sakarya](https://mersakarya.medium.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905), y [este video por Ken Jee](https://www.youtube.com/watch?v=MpF9HENQjDo). Esta [guía por freecodecamp](https://www.datacamp.com/tutorial/text-analytics-beginners-nltk) que nos sirvió como introducción a machine learning.
+Este proyecto fue originalmente inspirado por [este artículo de Omer Sakarya](https://mersakarya.medium.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905), y [este video por Ken Jee](https://www.youtube.com/watch?v=MpF9HENQjDo). Esta [guía por datacamp](https://www.datacamp.com/tutorial/text-analytics-beginners-nltk) que nos sirvió como introducción a machine learning.
 
 Un agradecimiento especial al [Dr. Edgar Cambranes](https://twitter.com/cambranes), por su mentoría durante la realización de este proyecto.
 
