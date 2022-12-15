@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="Logo">
+    <file>src/LogoLinkJob.png</file>
+  </qresource>
+</RCC>
