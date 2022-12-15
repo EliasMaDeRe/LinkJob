@@ -40,7 +40,7 @@ Lista de las funcionalidades:
 - Limpieza (Parsing) de la información recolectada a información manejable, útil y compacta, donde se convierten en objetos guardados en el sistema.
 - Modelado (Plotting) de una lista de objetos en forma de gráfica de barras, con escalas, etiquetas del total y valor individual de las gráficas, exportación a un archivo .png
 - Análisis sentimental de las descripciones de trabajo de ingenieros de software, para identificar los roles de Ingenieros de Software a los que se apega la oferta.
-- Interfaz gráfica con botones dropdown que permiten visualizar una gráfica dependiendo de la información solicitada. Esta llama a las funciones anteriores y muestra el .png exportado
+- Interfaz gráfica con botones dropdown dinámicos que permiten visualizar una gráfica dependiendo de la información solicitada y presente. Esta llama a las funciones anteriores y muestra el .png exportado
 
 
 ## Screenshots
