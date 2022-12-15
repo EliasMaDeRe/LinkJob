@@ -74,10 +74,6 @@ Espacio para mejorar:
 - Mejorar la interfaz. (Realizar cambios en resolución de las gráficas, usabilidad de la interfaz)
 - Mensajes explicativos para los casos cuando no se encuentra información en los datos. (Actualmente solo es un output en consola de ejecución)
 
-Para realizar:
-- Opción de archivar las gráficas por intervalo de tiempo. (Por ejemplo, poder consultar las gráficas de meses/años anteriores)
-- Mayor cantidad de filtros. (Por ejemplo, añadir a filtros específicos las locaciones encontradas)
-
 ## Agradecimientos
 
 Este proyecto fue realizado por: 
