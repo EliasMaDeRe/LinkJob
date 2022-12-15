@@ -42,9 +42,9 @@ Lista de las funcionalidades:
 
 
 ## Screenshots
-![Interfaz1](./img/ss1.png)
-![Interfaz2](./img/ss2.png)
-![Interfaz3](./img/ss3.png)
+![Interfaz1](./img/ss1.PNG)
+![Interfaz2](./img/ss2.PNG)
+![Interfaz3](./img/ss3.PNG)
 
 
 ## Setup
