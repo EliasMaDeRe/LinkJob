@@ -1,6 +1,6 @@
 # ![Logo](./img/LogoLinkJob.png)
-> LinkJob es una aplicación que permite visualizar la información acerca de las ofertas de trabajo para ingenieros de software en México, por medio de gráficas y archivos .csv.
-> - Video demo: [aquí](https://alumnosuady-my.sharepoint.com/personal/a18000621_alumnos_uady_mx/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fa18000621%5Falumnos%5Fuady%5Fmx%2FDocuments%2F2022%2D05%2D23%2022%2D02%2D02%2Emp4&parent=%2Fpersonal%2Fa18000621%5Falumnos%5Fuady%5Fmx%2FDocuments&ga=1) <!-- If you have the project hosted somewhere, include the link here. -->
+> LinkJob es una aplicación que permite visualizar la información acerca de las ofertas de trabajo para ingenieros de software en México en el sitio web de Glassdoor, por medio de gráficas.
+> - Video demo: [aquí](https://alumnosuady-my.sharepoint.com/:v:/g/personal/a18000577_alumnos_uady_mx/EfhrNFqTem5JqrC46uENK7QBUHue_zFiCpK1TtcFPiNctQ?e=nGAApF) <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Tabla de Contenidos
 * [Información General](#información-general)
@@ -18,6 +18,7 @@
 ## Información General
 - Este proyecto fue realizado para la asignatura Programación Orientada a Objetos.
 - Existe una falta de información sobre las ofertas de empleo para Ingenieros de Software en México, no hay una manera clara y visual de tener la información acerca del mercado para este puesto.
+- Esta segunda revisión es la continuación al desarrollo de la misma aplicación durante enero-mayo 2022. Decidimos continuar con el proyecto con un diseño orientado a objetos totalizando un año de desarrollo total.
 - Esperamos que nuestro proyecto sea de utilidad para los estudiantes de Ingeniería de Software en México, y sea herramienta para informarse acerca de la situación actual del mercado, salarios, lugares de alta demanda, tecnologías solicitadas, softskills y otra información útil para su elección.
 - Como actuales estudiantes de Ingeniería de Software, queríamos acceder a esta información, y al no estar disponible, decidimos solucionar esta problemática.
 
@@ -34,10 +35,10 @@
 
 ## Funcionalidades
 Lista de las funcionalidades:
-- Webscraping de el sitio Glassdoor, exportación de la información recabada en un archivo .csv
-- Parsing de la información en un archivo .csv a información manejable, útil y compacta, exportación a un archivo .csv
-- Plotteo de un archivo .csv en forma de gráfica de barras, con escalas, etiquetas del total y valor individual de las gráficas, exportación a un archivo .png
-- Análisis sentimental de la información recabada del sitio Glassdoor, para identificar los roles de Ingenieros de Software en cada oferta de trabajo
+- Recolección (Webscrapping) de los distintos elementos del sitio Glassdoor.
+- Limpieza (Parsing) de la información recolectada a información manejable, útil y compacta, donde se convierten en objetos guardados en el sistema.
+- Modelado (Plotting) de una lista de objetos en forma de gráfica de barras, con escalas, etiquetas del total y valor individual de las gráficas, exportación a un archivo .png
+- Análisis sentimental de las descripciones de trabajo de ingenieros de software, para identificar los roles de Ingenieros de Software a los que se apega la oferta.
 - Interfaz gráfica con botones dropdown que permiten visualizar una gráfica dependiendo de la información solicitada. Esta llama a las funciones anteriores y muestra el .png exportado
 
 
@@ -59,7 +60,7 @@ Cuando se tengan todas las piezas de la [carpeta 'GIU'](https://github.com/Elias
 
 `main.py`
 
-Todas las gráficas son generadas al momento.
+Las graficas son cargadas de las guardadas en el sistema y se le da al usuario una opción en la interfaz para generar nuevos datos.
 
 
 ## Estado del Proyecto
@@ -71,8 +72,10 @@ El proyecto está:  _completado_.
 Estas son áreas que consideramos pueden tener mejora y cosas que nos hubiese gustado implementar pero no se pudieron realizar por cuestión de tiempo y viabilidad.
 
 Espacio para mejorar:
-- Mejorar la interfaz. (Realizar cambios en resolución de las gráficas, usabilidad de la interfaz)
-- Mensajes explicativos para los casos cuando no se encuentra información en los datos. (Actualmente solo es un output en consola de ejecución)
+
+- Almacenado local. El sistema podría tener la opción de consumir una base de datos en la nube.
+- Modularidad de front-end y back-end del sistema. Actualmente se usa python para ambas, pero un desplegarla en forma web podría representar ventaja de portabilidad.
+- Mayor precisión del análisis sentimental. Se podrían cargar más datasets preverificados para hacer el análisis sentimental más preciso.
 
 ## Agradecimientos
 
@@ -84,7 +87,7 @@ Este proyecto fue realizado por:
 - [Reyna Valentina Ortiz Porras](https://github.com/valeeortiz)
 
 
-Este proyecto fue inspirado por [este artículo de Omer Sakarya](https://mersakarya.medium.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905), y [este video por Ken Jee](https://www.youtube.com/watch?v=MpF9HENQjDo).
+Este proyecto fue originalmente inspirado por [este artículo de Omer Sakarya](https://mersakarya.medium.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905), y [este video por Ken Jee](https://www.youtube.com/watch?v=MpF9HENQjDo). Esta [guía por freecodecamp](https://www.datacamp.com/tutorial/text-analytics-beginners-nltk) que nos sirvió como introducción a machine learning.
 
 Un agradecimiento especial al [Dr. Edgar Cambranes](https://twitter.com/cambranes), por su mentoría durante la realización de este proyecto.
 
