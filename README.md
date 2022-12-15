@@ -55,7 +55,7 @@ Se requiere el chromedriver webdriver para la version de chrome que se tenga ins
 
 - [Chromedriver](https://chromedriver.chromium.org/downloads)
 
-Cuando se tengan todas las piezas de la [carpeta 'GIU'](./GIU) de este repositorio, solo es necesario correr el archivo 'main.py'
+Cuando se tengan todas las piezas de la [carpeta 'GIU'](https://github.com/EliasMaDeRe/LinkJob/tree/Revision-2/GUI) de este repositorio, solo es necesario correr el archivo 'main.py'
 
 `main.py`
 
