@@ -86,6 +86,7 @@ Este proyecto fue realizado por:
 - [Elías Madera De Regil](https://github.com/EliasMaDeRe/LinkJob)
 - [Carlos Augusto May Vivas](https://github.com/CarlosMay7)
 - [Reyna Valentina Ortiz Porras](https://github.com/valeeortiz)
+- [Pablo Gamboa Nieto](https://github.com/Pgamboan)
 
 
 Este proyecto fue originalmente inspirado por [este artículo de Omer Sakarya](https://mersakarya.medium.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905), y [este video por Ken Jee](https://www.youtube.com/watch?v=MpF9HENQjDo). Esta [guía por datacamp](https://www.datacamp.com/tutorial/text-analytics-beginners-nltk) que nos sirvió como introducción a machine learning.
