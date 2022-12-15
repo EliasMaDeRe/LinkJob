@@ -18,7 +18,8 @@
 ## Información General
 - Este proyecto fue realizado para la asignatura Programación Orientada a Objetos.
 - Existe una falta de información sobre las ofertas de empleo para Ingenieros de Software en México, no hay una manera clara y visual de tener la información acerca del mercado para este puesto.
-- Esta segunda revisión es la continuación al desarrollo de la misma aplicación durante enero-mayo 2022. Decidimos continuar con el proyecto con un diseño orientado a objetos totalizando un año de desarrollo total.
+- Esta segunda revisión es la continuación al desarrollo de la misma aplicación durante Enero-Mayo 2022. Decidimos continuar con el proyecto con un diseño orientado a objetos totalizando un año de desarrollo total.
+- El resultado final de este período Agosto-Diciembre 2022 se encuentra en este repositorio. Para consultar el proceso, sprints al igual que bitácoras [referir a este repositorio.](https://github.com/CarlosMay7/POO---Equipo-2)
 - Esperamos que nuestro proyecto sea de utilidad para los estudiantes de Ingeniería de Software en México, y sea herramienta para informarse acerca de la situación actual del mercado, salarios, lugares de alta demanda, tecnologías solicitadas, softskills y otra información útil para su elección.
 - Como actuales estudiantes de Ingeniería de Software, queríamos acceder a esta información, y al no estar disponible, decidimos solucionar esta problemática.
 
